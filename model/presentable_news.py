@@ -1,7 +1,7 @@
 import json
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyDObieTwAqx4f7dAuR4vKAXDcZOargmVSw")
+genai.configure(api_key="ENTER_YOUR_API_KEY_HERE")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 with open(r"C:\Users\user\Desktop\NextNews\NextNews\model\scraped_page_data.json", "r") as file:
