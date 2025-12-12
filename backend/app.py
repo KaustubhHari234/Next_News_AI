@@ -16,8 +16,8 @@ logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 CORS(app)
-GENAI_API_KEY = "AIzaSyDObieTwAqx4f7dAuR4vKAXDcZOargmVSw"
-SERPAPI_API_KEY = "c3550daff1993dfb2163f83161c9f284d9fb12f5fe20d0a1c9451fd9f4e44608"
+GENAI_API_KEY = "ENTER_YOUR_API_KEY_HERE"
+SERPAPI_API_KEY = "ENTER_YOUR_SERPAPI_KEY_HERE"
 genai.configure(api_key=GENAI_API_KEY)
 
 @app.route('/')
